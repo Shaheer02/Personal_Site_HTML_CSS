@@ -13,7 +13,7 @@ border-style: none; /* Overridden value */
 border-top-style: dashed;
 border-width: 10px;
 border-color: grey;
-width: 30%; /* Width of Horizontal line shuld be 75% of the width of entire webpage.*/
+width: 30%; /* Width of Horizontal line shuld be 30% of the width of entire webpage.*/
 
 }
 h1{
@@ -56,8 +56,9 @@ table{
 .UBC{
   width: 750px;
   height: 550px;
+/** Centers Image **/
   display: block;
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 /****ID SELECTORS********/
