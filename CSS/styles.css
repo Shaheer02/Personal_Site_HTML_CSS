@@ -1,0 +1,68 @@
+
+body { /* This will change the background color of our body */
+  background-color: #e7f5f2
+
+}
+
+
+
+hr{ /* Browser adds default values that must be overriden to change the style. Look up browser defaults on the web to see what to change. */
+
+background-color: #e7f5f2;
+border-style: none; /* Overridden value */
+border-top-style: dashed;
+border-width: 10px;
+border-color: grey;
+width: 30%; /* Width of Horizontal line shuld be 75% of the width of entire webpage.*/
+
+}
+h1{
+  color: #3cb2ff;
+text-align: center;
+}
+
+h3{
+  color: #5ab6b6;
+}
+
+table{
+ /* Centers Table */
+
+/*
+  margin-left:auto;
+  margin-right:auto;
+  */
+
+}
+
+
+/** CLASS OR IDS OVERRIDE TAG SELECTORS **/
+/** YOU CAN HAVE MORE THAN ONE CLASS PER TAG, AKA SEPARATED BY SPACE, BUT NOT FOR ID **/
+
+/****CLASS SELECTORS********/
+
+.UBC_REF{ /* Class Based CSS */
+  color: #3cb2ff;
+}
+
+.ah3{  /* Used for grouping*/
+  color: #3cb2ff;
+}
+
+.circular{
+  border-radius: 25%;
+}
+
+.UBC{
+  width: 750px;
+  height: 550px;
+  display: block;
+   margin: 0 auto;
+}
+
+/****ID SELECTORS********/
+#education{ /* Used only once per page */
+
+  color: #5ab6b6;
+
+}

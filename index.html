@@ -6,20 +6,25 @@
 <head>
   <meta charset="utf-8">
   <title>Shaheer's Personal Site</title> <!-- What shows up in tab bar -->
-  <hr size="3" noshade>
+  <hr>
+
+<!-- Where our CSS code shall be written. Make sure it is within the head tag. This is internal CSS, and will only impact this page. -->
+
+<link rel="stylesheet" href="css/styles.css">
+
 </head>
 
-<body>
+<body> <!-- CSS code for style -->
 
   <h1><em> Shaheer Shoaib </h1></em>
-  <img src=https://okmain.cms.ok.ubc.ca/wp-content/uploads/sites/26/2018/02/ubco-aerial-top-40-university-prospective-students.jpg alt="Image Of UBC's Okanangan Campus">
-  <p> <em>Student At <a href="https://www.ubc.ca/"><strong>UBC</strong></p></a></em>
+  <img class = "UBC circular" src=https://okmain.cms.ok.ubc.ca/wp-content/uploads/sites/26/2018/02/ubco-aerial-top-40-university-prospective-students.jpg alt="Image Of UBC's Okanangan Campus">
+  <p> <em>Student At <a class = "UBC_REF" href="https://www.ubc.ca/"><strong>UBC</strong></p></a></em>
   <p><br> I enjoy programming. I am currently proficient in Java, Python, and Processing. I am currently working on improving my skills in HTML, CSS, and JavaScript. </p></br>
   <a href="contact.html">
-    <h3>How To Contact Me</h3>
+    <h3 class = "ah3">How To Contact Me</h3>
   </a>
-  <hr size="2" noshade>
-  <h3> Education </h3>
+  <hr>
+  <h3 id = "education"> Education </h3>
   <ol type="i">
     <li> Dr. E.P. Scarlett Senior High School </li>
     <ul>
@@ -32,8 +37,8 @@
   </ol>
   <hr>
 
+<h3>Work and Volunteering Experience</h3>
   <table>
-    <caption><Strong>Table Of Work And Volunteering Experience<Strong></caption>
     <thead>
       <th>Date</th>
       <th>Work/Volunteering</th>
@@ -90,7 +95,7 @@
   <hr>
   </hr>
   <a href="hobbies.html">
-    <h3> Hobbies </h3>
+<h3 class = "ah3"> Hobbies </h3>
   </a>
 
 
