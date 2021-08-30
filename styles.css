@@ -45,8 +45,15 @@ table{
   color: #3cb2ff;
 }
 
+.UBC_REF:hover{
+  color:#cd103b;
+}
+
 .ah3{  /* Used for grouping*/
   color: #3cb2ff;
+}
+.ah3:hover{
+  color: #cd103b;
 }
 
 .circular{
