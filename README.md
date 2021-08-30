@@ -1,1 +1,1 @@
-## This is a personal website I made solely to learn and practice HTML
+## This is an extension of the HTML - Personal Website Repo, except also using CSS.
